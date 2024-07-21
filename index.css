@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    color: white;
+    background-color: #1F2937;
+    padding: 40px 30px;
+    font-family: "Karla", sans-serif;
+
+}
+.green {
+    color: #4ADF86;
+}
+
+h1 {
+    margin-bottom: -10px;
+    font-weight: bolder;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+hr{
+    color: #1F2937;
+
+}
+
+button{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4ADF86;
+    border: none;
+    color: white;
+}
+
+.hero-top-section{
+   padding-bottom: 20px; 
+   margin-bottom: 0px;
+   border-bottom: 3px solid #2F3E53;
+}
+
+.hero-bottom-section {
+    display: flex;
+    padding: auto;
+    margin: 40px auto;
+    color: #4ADF86;
+}
+
+.pw-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    line-height: 0px;
+    height: 40px;
+    margin: auto 10px;
+    background-color: #273549;
+    border: 1px solid #1F2937;
+    border-radius: 7px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    
+}
+
+.pw-input img{
+    width: 20px;
+    height: 20px;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.passwordValue {
+    width: 80%;
+    background-color: transparent;
+    
+}
+
+#rangeValue {
+    width: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 20px;
+    
+}
+
+#rangeInput {
+    width: 350px;
+    background: #4ADF86;
+    
+}
+

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero-top-section">
+            <h1>Generate a <br><span class="green"> random password</span></h1>
+            <p>Never use an insecure password again</p>
+            
+            <button onclick="createPassword()">Generate passwords</button>
+        </div>
+        <div class="hero-bottom-section">
+             <div class="pw-input">
+                <div class="passwordValue" id="pass-el"></div>
+                <img class="pw-input" src="images/copy.png"/>
+            </div>
+            <div class="pw-input">
+                <div class="passwordValue" id="pass-el-two"></div>
+                <img class="pw-input" src="images/copy.png" id="copySuccess"/>
+            </div>
+        </div>
+        <div class="hero-bottom-section">
+            <input type="range" id="rangeInput" min="6" max="25" value="15" oninput="rangeInput.value=this.value"/>
+            <input type="number" id="rangeValue" min="6" max="25" value="15" oninput="rangeInput.value=this.value"/>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
